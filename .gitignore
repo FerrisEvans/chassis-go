@@ -1,6 +1,15 @@
+.idea
+.vscode
+
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -19,7 +28,16 @@
 
 # Go workspace file
 go.work
-go.work.sum
 
-# env file
-.env
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+config.debug.yaml
+config.dev.yaml
+config.test.yaml
+
+/sys-log
